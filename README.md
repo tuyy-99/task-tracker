@@ -56,13 +56,16 @@ src/
 
 <img width="896" height="626" alt="image" src="https://github.com/user-attachments/assets/db31a6f4-fdd5-4dbc-bc13-27963fb46baa" />
 <img width="956" height="632" alt="image" src="https://github.com/user-attachments/assets/e8d35fb2-1d22-422b-b86b-550f583ae6ef" />
+<img width="523" height="486" alt="image" src="https://github.com/user-attachments/assets/92337b65-3c88-44d4-ba0d-3580eb8890cb" />
+
 
 
 
 
 ### Mobile View
 
-![Uploading image.png…]()
+<img width="311" height="587" alt="image" src="https://github.com/user-attachments/assets/5035f5c1-b305-4027-8b2b-543444432d63" />
+
 
 
 ---
