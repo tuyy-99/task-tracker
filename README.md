@@ -1,16 +1,115 @@
-# React + Vite
+# Task Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive task tracker built with **React**, **Zustand**, **Tailwind CSS**, and **ShadCN UI components**. Supports **dark mode**, **inline task editing**, and **real-time task stats**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+* Add, update, delete tasks
+* Toggle task completion
+* Inline editing: click edit → text moves to input → update
+* Dark mode toggle
+* Persistent state with localStorage (via Zustand middleware)
+* Progress bar and pie chart gauge
+* Responsive layout (desktop & mobile)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React (JSX)
+* Zustand (state management)
+* Tailwind CSS (v4)
+* ShadCN UI components
+* Recharts (Task gauge)
+* Sonner (toast notifications)
+* React Router (navigation)
+
+---
+
+## File Structure
+
+```
+src/
+├─ components/
+│  ├─ Header.jsx
+│  ├─ TaskInput.jsx
+│  ├─ TaskItem.jsx
+│  ├─ TaskList.jsx
+│  ├─ ProgressBar.jsx
+│  └─ TaskGauge.jsx
+├─ pages/
+│  ├─ Home.jsx
+│  └─ Stats.jsx
+├─ store/
+│  └─ useTasks.js
+├─ App.jsx
+└─ main.jsx
+```
+
+---
+
+## Screenshots
+
+### Desktop View
+
+<img width="896" height="626" alt="image" src="https://github.com/user-attachments/assets/db31a6f4-fdd5-4dbc-bc13-27963fb46baa" />
+<img width="956" height="632" alt="image" src="https://github.com/user-attachments/assets/e8d35fb2-1d22-422b-b86b-550f583ae6ef" />
+
+
+
+
+### Mobile View
+
+![Uploading image.png…]()
+
+
+---
+
+## Usage
+
+1. Clone the repo
+
+```bash
+git clone <repo-url>
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Run the app
+
+```bash
+npm start
+```
+
+4. Open `http://localhost:3000` in your browser
+
+---
+
+## Notes
+
+* Dark mode toggle persists across sessions.
+* Task stats are updated in real time.
+* Inline editing ensures smooth task management.
+
+---
+
+## Author
+
+Tursina
+
+📧 Email: yisehaktursina@gmail.com)
+💼 LinkedIn: https://in/tursina-yisehak-7a9942358
+🐙 GitHub:https://github.com/tuyy-99
+
+## License
+
+This project is open-source and free to use for learning and personal projects.
+
+---
+
